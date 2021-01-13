@@ -2,7 +2,7 @@
 
 In this project, we implemented a non-linear aggregation algorithm using proximal control for obstacle avoidance, and infrared communication for both heading alignment and swarm cohesion. This algorithm provides a consistent flocking navigation, given good communication range and sensors stability. It still exhibits a good consistency on real Epuck robots that have a very short communication range and noisy sensors.
 
-For more information see [report](https://github.com/prodp/DISProject/blob/main/report.pdf).
+For more information see [report](https://github.com/prodp/DISProject/blob/master/report.pdf).
 
 ## Code Organisation
 
