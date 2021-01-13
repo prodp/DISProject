@@ -1,0 +1,7 @@
+.DS_Store
+.*
+webots/controllers/flock_controller/build/*
+webots/controllers/flock_controller/flock_controller
+webots/controllers/flock_controller/flock_controller.o
+webots/controllers/flock_controller/flock_controller.d
+!/.gitignore

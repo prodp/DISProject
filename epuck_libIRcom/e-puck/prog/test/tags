@@ -1,0 +1,62 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ABS	main.c	55;"	d	file:
+ALPHA	main.c	40;"	d	file:
+AXLE_LENGTH	main.c	21;"	d	file:
+BETA	main.c	41;"	d	file:
+C	main.c	37;"	d	file:
+DELTA	main.c	42;"	d	file:
+DESIRED_CM	main.c	46;"	d	file:
+EPSILON	main.c	48;"	d	file:
+FLOCK_SIZE	main.c	31;"	d	file:
+GAMMA	main.c	38;"	d	file:
+IOTA	main.c	44;"	d	file:
+KP	main.c	39;"	d	file:
+MAX	main.c	56;"	d	file:
+MAX_SENS	main.c	27;"	d	file:
+MAX_SPEED	main.c	29;"	d	file:
+MIGRATION_BIAS	main.c	45;"	d	file:
+MIN_SENS	main.c	26;"	d	file:
+M_PI	main.c	18;"	d	file:
+M_PI_2	main.c	19;"	d	file:
+O_MAX	main.c	35;"	d	file:
+O_MIN	main.c	34;"	d	file:
+O_NO_DETECTION	main.c	33;"	d	file:
+SPEED_UNIT_RADS	main.c	24;"	d	file:
+TIMEOUT	main.c	53;"	d	file:
+TIME_RECEIVE	main.c	52;"	d	file:
+TIME_STEP	main.c	50;"	d	file:
+TIME_STEP_WAIT	main.c	51;"	d	file:
+WHEEL_RADIUS	main.c	22;"	d	file:
+ZETA	main.c	43;"	d	file:
+clock	main.c	/^volatile unsigned long clock;$/;"	v
+compute_O_k	main.c	/^float compute_O_k(float detection){$/;"	f
+emit	main.c	/^void emit(){$/;"	f
+flock	main.c	/^int flock;$/;"	v
+getselector	main.c	/^int getselector()$/;"	f
+init	main.c	/^void init(){$/;"	f
+initialized	main.c	/^int initialized[FLOCK_SIZE];            \/\/ != 0 if initial positions have been received$/;"	v
+lastClock	main.c	/^unsigned long lastClock;$/;"	v
+last_heard_of	main.c	/^unsigned long last_heard_of[FLOCK_SIZE];$/;"	v
+limit	main.c	/^void limit(int *number, int limit1, int limit2){$/;"	f
+limit_and_rescale_sym	main.c	/^void limit_and_rescale_sym(int *msl, int *msr, int limit){$/;"	f
+limit_sym	main.c	/^void limit_sym(int *number, int limit){$/;"	f
+main	main.c	/^int main()$/;"	f
+my_position	main.c	/^float my_position[3];       \/\/ X, Z, Theta of the current robot$/;"	v
+print_robot_msg	main.c	/^void print_robot_msg(int robot_id, int flock, double theta){$/;"	f
+receive	main.c	/^void receive(){$/;"	f
+relative_pos	main.c	/^float relative_pos[FLOCK_SIZE][3];      \/\/ relative X, Z, Theta of all robots$/;"	v
+robot_id	main.c	/^int robot_id;$/;"	v
+round	main.c	/^int round(double nb){$/;"	f
+sensorDir	main.c	/^float sensorDir[NB_IR_SENSORS] = {-0.2967,-0.8727, -1.5708, -2.6180, 2.6180, 1.5708, 0.8727, 0.2967};$/;"	v
+sign	main.c	/^int sign(float x) {$/;"	f
+sq_norm	main.c	/^float sq_norm(float *vect, int size){$/;"	f
+tick	main.c	/^int tick;$/;"	v
+update_self_motion	main.c	/^void update_self_motion(int msl, int msr) {$/;"	f
+update_speeds	main.c	/^void update_speeds(int *msl, int *msr) {$/;"	f
+wait	main.c	/^void wait(unsigned long n){$/;"	f
+warp	main.c	/^float warp(float val, float old_a, float old_b, float new_a, float new_b){$/;"	f

@@ -1,0 +1,373 @@
+#VRML_SIM R2019b utf8
+WorldInfo {
+  info [
+    "Description"
+    "Author: first name last name <e-mail>"
+    "Date: DD MMM YYYY"
+  ]
+  basicTimeStep 16
+}
+Viewpoint {
+  orientation -0.9903185937000639 -0.13867801831383866 0.006122924830035591 0.6000922504289663
+  position -0.15314813580489828 2.093082172134887 2.6136107809737843
+}
+PointLight {
+  intensity 0.5
+  location -1.06 0.58 -0.55
+  castShadows TRUE
+}
+PointLight {
+  intensity 0.5
+  location -1.63 0.53 -0.05
+}
+Background {
+  skyColor [
+    0.7 0.7999999999999999 0.7999999999999999
+  ]
+}
+DEF rock Solid {
+  translation -0.36819399999999997 0 -1.566846
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 1 1 1
+        }
+      }
+      geometry Box {
+        size 0.15 0.2 0.15
+      }
+    }
+  ]
+  name "short brick(7)"
+  boundingObject DEF U_END_BOX Box {
+    size 0.15 0.2 0.15
+  }
+}
+DEF rock Solid {
+  translation 0.039552 0 -1.549648
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 1 1 1
+        }
+      }
+      geometry Box {
+        size 0.15 0.2 0.15
+      }
+    }
+  ]
+  name "short brick(2)"
+  boundingObject DEF U_END_BOX Box {
+    size 0.15 0.2 0.15
+  }
+}
+DEF rock Solid {
+  translation 0.49176299999999995 0 -1.550004
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 1 1 1
+        }
+      }
+      geometry Box {
+        size 0.15 0.2 0.15
+      }
+    }
+  ]
+  name "short brick(3)"
+  boundingObject DEF U_END_BOX Box {
+    size 0.15 0.2 0.15
+  }
+}
+DEF rock Solid {
+  translation -0.602816 0 -1.911573
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 1 1 1
+        }
+      }
+      geometry Box {
+        size 0.15 0.2 0.15
+      }
+    }
+  ]
+  name "short brick(4)"
+  boundingObject DEF U_END_BOX Box {
+    size 0.15 0.2 0.15
+  }
+}
+DEF rock Solid {
+  translation 0.308986 0 -1.9151319999999998
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 1 1 1
+        }
+      }
+      geometry Box {
+        size 0.15 0.2 0.15
+      }
+    }
+  ]
+  name "short brick(6)"
+  boundingObject DEF U_END_BOX Box {
+    size 0.15 0.2 0.15
+  }
+}
+DEF rock Solid {
+  translation 0.714202 0 -1.938796
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 1 1 1
+        }
+      }
+      geometry Box {
+        size 0.15 0.2 0.15
+      }
+    }
+  ]
+  name "short brick(9)"
+  boundingObject DEF U_END_BOX Box {
+    size 0.15 0.2 0.15
+  }
+}
+DEF rock Solid {
+  translation 0.8664609999999999 0 -1.5485019999999998
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 1 1 1
+        }
+      }
+      geometry Box {
+        size 0.15 0.2 0.15
+      }
+    }
+  ]
+  name "short brick(1)"
+  boundingObject DEF U_END_BOX Box {
+    size 0.15 0.2 0.15
+  }
+}
+DEF rock Solid {
+  translation -0.176338 0 -1.9314319999999998
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 1 1 1
+        }
+      }
+      geometry Box {
+        size 0.15 0.2 0.15
+      }
+    }
+  ]
+  name "short brick(5)"
+  boundingObject DEF U_END_BOX Box {
+    size 0.15 0.2 0.15
+  }
+}
+DEF rock Solid {
+  translation -0.7906409999999999 0 -1.5320159999999998
+  children [
+    Shape {
+      appearance Appearance {
+        material Material {
+          diffuseColor 1 1 1
+        }
+      }
+      geometry Box {
+        size 0.15 0.2 0.15
+      }
+    }
+  ]
+  name "short brick(8)"
+  boundingObject DEF U_END_BOX Box {
+    size 0.15 0.2 0.15
+  }
+}
+DEF epuck0 E-puck {
+  translation -0.016248 -0.09999999999999999 0.48037599999999997
+  name "epuck0"
+  controller "pso_controller"
+  controllerArgs "0 -1"
+  turretSlot [
+    Compass {
+    }
+    Receiver {
+      name "rec_serv"
+      channel 3
+    }
+  ]
+  kinematic TRUE
+}
+E-puck {
+  translation 0.037652 -0.09999999999999999 -0.068914
+  controller ""
+}
+E-puck {
+  translation -0.120692 -0.09999999999999999 -0.07811599999999999
+  name "e-puck(3)"
+  controller ""
+}
+E-puck {
+  translation -0.30481199999999997 -0.09999999999999999 -0.086768
+  name "e-puck(4)"
+  controller ""
+}
+E-puck {
+  translation 0.217934 -0.09999999999999999 -0.07797
+  name "e-puck(1)"
+  controller ""
+}
+E-puck {
+  translation 0.412916 -0.09999999999999999 -0.065509
+  name "e-puck(2)"
+  controller "void"
+}
+DEF epuck1 E-puck {
+  translation 0.151715 -0.09999999999999999 0.477647
+  name "epuck1"
+  controller "pso_controller"
+  controllerArgs "0 -1"
+  turretSlot [
+    Compass {
+    }
+    Receiver {
+      name "rec_serv"
+      channel 3
+    }
+  ]
+  kinematic TRUE
+}
+DEF epuck2 E-puck {
+  translation -0.203238 -0.11 0.47207299999999996
+  name "epuck2"
+  controller "pso_controller"
+  controllerArgs "0 -1"
+  turretSlot [
+    Compass {
+    }
+    Receiver {
+      name "rec_serv"
+      channel 3
+    }
+  ]
+  kinematic TRUE
+}
+DEF epuck3 E-puck {
+  translation 0.348122 -0.09999999999999999 0.479857
+  name "epuck3"
+  controller "pso_controller"
+  controllerArgs "0 -1"
+  turretSlot [
+    Compass {
+    }
+    Receiver {
+      name "rec_serv"
+      channel 3
+    }
+  ]
+  kinematic TRUE
+}
+DEF epuck4 E-puck {
+  translation -0.350593 -0.1 0.476262
+  name "epuck4"
+  controller "pso_controller"
+  controllerArgs "0 -1"
+  turretSlot [
+    Compass {
+    }
+    Receiver {
+      name "rec_serv"
+      channel 3
+    }
+  ]
+  kinematic TRUE
+}
+DEF SUPERVISOR Robot {
+  children [
+    DEF receiver4 Receiver {
+      name "receiver4"
+      channel 3
+    }
+    DEF receiver3 Receiver {
+      name "receiver3"
+      channel 3
+    }
+    DEF receiver2 Receiver {
+      name "receiver2"
+      channel 3
+    }
+    DEF receiver1 Receiver {
+      name "receiver1"
+      channel 3
+    }
+    DEF emitter4 Emitter {
+      name "emitter4"
+      channel 3
+    }
+    DEF emitter3 Emitter {
+      name "emitter3"
+      channel 3
+    }
+    DEF emitter2 Emitter {
+      name "emitter2"
+      channel 3
+    }
+    DEF emitter1 Emitter {
+      name "emitter1"
+      channel 3
+    }
+    DEF emitter Emitter {
+      channel 3
+    }
+    DEF receiver0 Receiver {
+      name "receiver0"
+      channel 3
+    }
+    DEF receiver Receiver {
+      channel 3
+    }
+    DEF emitter0 Emitter {
+      name "emitter0"
+      channel 3
+    }
+  ]
+  controller "pso_super"
+  controllerArgs "0 -1"
+  supervisor TRUE
+}
+PortraitPainting {
+  translation -0.812264 0.505 -3.003419
+}
+PortraitPainting {
+  translation 0.79553 0.505 -3.016965
+  name "portrait painting(2)"
+}
+PortraitPainting {
+  translation -0.01224 0.505 -2.9940089999999997
+  name "portrait painting(1)"
+}
+RectangleArena {
+  translation 0.047306999999999995 -0.09999999999999999 -1.099493
+  floorSize 2 4
+}
+BunchOfSunFlowers {
+  translation 1.047354 -0.39999999999999997 -2.760122
+  rotation 0 1 0 -2.3561943071795866
+}
+BunchOfSunFlowers {
+  translation -0.890999 -0.6 -2.8970759999999998
+  name "bunch of sunflowers(1)"
+}
